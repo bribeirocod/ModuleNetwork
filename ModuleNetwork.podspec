@@ -28,17 +28,24 @@ Pod::Spec.new do |spec|
 
   spec.homepage     = "https://github.com/bribeirocod/ModuleNetwork"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-  spec.author             = { "bribeirocod" => "bribeirocod@gmail.com" }
+
+
+  # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  #
+  #  Licensing your code is important. See https://choosealicense.com for more info.
+  #  CocoaPods will detect a license file if there is a named LICENSE*
+  #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.source       = { :git => "https://github.com/bribeirocod/ModuleNetwork.git", :tag => "1.0.0" }
   
-  s.ios.deployment_target = '8.0'
+  spec.license      = { :type => "MIT", :file => "LICENCE" }
+
+  spec.author             = { "Bruno Henrique" => "brunohbr123@gmail.com" }
+
+  spec.source       = { :git => "https://github.com/bribeirocod/ModuleNetwork.git", :tag => "1.0.0" }
+
 
   spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
 
-
+  
 end
